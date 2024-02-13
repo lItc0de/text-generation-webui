@@ -1,0 +1,17 @@
+temperature: 1.31
+top_p: 0.14
+top_k: 49
+repetition_penalty: 1.17
+sampler_priority: |-
+  temperature
+  dynamic_temperature
+  quadratic_sampling
+  top_k
+  top_p
+  typical_p
+  epsilon_cutoff
+  eta_cutoff
+  tfs
+  top_a
+  min_p
+  mirostat
